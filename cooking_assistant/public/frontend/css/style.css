@@ -1,0 +1,805 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+/* Header area start */
+.header_part{
+    height: 120px;
+    width: auto;
+    background: black;
+    opacity: .9;
+}
+.header_part .container .logo_part img{
+    margin-left: 65px;
+    margin-top: 10px;
+    height: 100px;
+    width: 90px;
+}
+.header_part .container .menu_part{
+    margin-left: 60px;
+}
+.header_part .container .menu_part .menu ul li{
+    float: left;
+}
+.header_part .container .menu_part .menu ul li a{
+    text-transform: uppercase;
+    line-height: 90px;
+    color: white;
+    margin-right: 40px;
+    padding: 6px;
+}
+.header_part .container .menu_part .menu ul li a:hover{
+    border: 1px solid green;
+    padding: 5px;
+}
+.header_part .container .button_part a{
+   display: block;
+   margin-top: 40px;
+   background: blue;
+   color: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+
+   margin-right: 65px;
+
+}
+.header_part .container .button_part a:hover{
+    background: green;
+    color: white;
+    transition: .5s;
+}
+/* Header area end */
+
+
+/* About area start */
+.welcome_parts{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.welcome_parts .container .left_part img{
+    width: 580px;
+    height: 580px;
+}
+.welcome_parts .container .right_part{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.welcome_parts .container .right_part h2{
+    margin-bottom: 15px;
+}
+.welcome_parts .container .right_part h2 i{
+    color: #FFB606;
+}
+.welcome_parts .container .right_part p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.welcome_parts .container .right_part a{
+    background: #ffb606;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-size: 18px;
+}
+.welcome_parts .container .right_part a:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+/* About area end */
+
+
+/* Blog part start */
+.blog_part{}
+.blog_part h3{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+.blog_part .background_image .image1{
+    background-image: url(../images/story_bg_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 300px;
+    float: right;
+}
+.blog_part .background_image .image2{
+    margin-top: 500px;
+    background-image: url(../images/story_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 300px;
+    float: left; 
+}
+.blog_part .background_image .container .part1 h4{
+    margin-top: 40px;
+}
+.blog_part .background_image .container .part1 p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+.blog_part .background_image .container .part1 a{
+    background: #ffb606;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    font-size: 18px;
+}
+.blog_part .background_image .container .part1 a:hover{
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.blog_part .background_image .container .part1 img{
+   margin-left: -200px;
+}
+.blog_part .background_image .container .part2{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.blog_part .background_image .container .part2 h4{
+    margin-top: 40px;
+}
+.blog_part .background_image .container .part2 p{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+.blog_part .background_image .container .part2 a{
+    background: #ffb606;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    font-size: 18px;
+}
+.blog_part .background_image .container .part2 a:hover{
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+/* Blog part end */
+
+
+/* recipe part start */
+.recipe_part{
+    margin-top: 80px;
+}
+.recipe_part .backgroud_part_recipe{
+    background-image: url(../images/food-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right; 
+}
+.recipe_part .backgroud_part_recipe .header_part_recipe h4{
+    font-size: 50px;
+}
+.recipe_part .backgroud_part_recipe .header_part_recipe p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+.recipe_part .backgroud_part_recipe .container .part1{
+    width: 352px;
+    height: 450px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.recipe_part .backgroud_part_recipe .container .part1 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.recipe_part .backgroud_part_recipe .container .part1 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.recipe_part .backgroud_part_recipe .container .part1:hover{
+    background: #FFB606;
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part1 img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+body:hover img{
+    transition: 1s;
+}
+body:hover .part1{
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part2{
+    width: 352px;
+    height: 450px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.recipe_part .backgroud_part_recipe .container .part2 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.recipe_part .backgroud_part_recipe .container .part2 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.recipe_part .backgroud_part_recipe .container .part2:hover{
+    background: #FFB606;
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part2 img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+body:hover img{
+    transition: 1s;
+}
+body:hover .part2{
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part3{
+    width: 352px;
+    height: 450px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.recipe_part .backgroud_part_recipe .container .part3 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.recipe_part .backgroud_part_recipe .container .part3 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.recipe_part .backgroud_part_recipe .container .part3:hover{
+    background: #FFB606;
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part3 img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+body:hover img{
+    transition: 1s;
+}
+body:hover .part3{
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part4{
+    width: 352px;
+    height: 450px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.recipe_part .backgroud_part_recipe .container .part4 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.recipe_part .backgroud_part_recipe .container .part4 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.recipe_part .backgroud_part_recipe .container .part4:hover{
+    background: #FFB606;
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part4 img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+body:hover img{
+    transition: 1s;
+}
+body:hover .part4{
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part5{
+    width: 352px;
+    height: 450px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.recipe_part .backgroud_part_recipe .container .part5 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.recipe_part .backgroud_part_recipe .container .part5 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.recipe_part .backgroud_part_recipe .container .part5:hover{
+    background: #FFB606;
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part5 img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+body:hover img{
+    transition: 1s;
+}
+body:hover .part5{
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part6{
+    width: 352px;
+    height: 450px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.recipe_part .backgroud_part_recipe .container .part6 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.recipe_part .backgroud_part_recipe .container .part6 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.recipe_part .backgroud_part_recipe .container .part6:hover{
+    background: #FFB606;
+    transition: 1s;
+}
+.recipe_part .backgroud_part_recipe .container .part6 img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+body:hover img{
+    transition: 1s;
+}
+body:hover .part6{
+    transition: 1s;
+}
+/* recipe part end */
+
+
+/* footer part start */
+.footer_part{
+    margin-top: 80px;
+/*    background: #0E2737;*/
+/*    background: #131230;*/
+    background: #101315;
+    height: 400px;
+    width: auto;
+}
+.footer_part .part1 img{
+    width: 100px;
+    height: 110px;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 15px 15px 15px 0px;
+}
+.footer_part .part1 h4{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.footer_part .part1 p{
+    color: white;
+}
+.footer_part .part2 h4{
+    color: white;
+    margin-top: 50px;
+    padding: 15px 15px 15px 0px;
+}
+.footer_part .part2 p{
+    color: white;
+    font-size: 12px;
+}
+.footer_part .part2 a{
+    color: white;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: #1C1F21;
+}
+.footer_part .part2 a:hover{
+    background: #000;
+    transition: .5s;
+}
+.footer_part .part3 h4{
+    color: white;
+    margin-top: 50px;
+    padding: 15px 15px 15px 0px;
+    padding-left: 80px;
+}
+.footer_part .part3 a{
+    color: white;
+    display: block;
+    padding-left: 80px;
+    padding-top: 5px;
+}
+.footer_part .part3 a:hover{
+    color: #11ffff;
+    transition: .5s;
+}
+.footer_part .part4 h4{
+    color: white;
+    margin-top: 50px;
+    padding: 15px 15px 15px 0px;
+}
+.footer_part .part4 p{
+    color: white;
+    font-size: 12px;
+}
+.footer_part .part4 form{
+    width: 280px; 
+    margin-top: 30px;
+}
+.footer_part .part4 form input{
+    padding: 10px;
+}
+.footer_part .part4{
+    position: relative;
+}
+.footer_part .part4 form input[type="email"]{
+    display: block;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: #FDE67C;
+    border-radius: 20px;
+}
+.footer_part .part4 form a{
+    position: absolute;
+    top: 115px;
+    right: -17px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    background: #1CC3B2;
+}
+.footer_part .part4 form a:hover{
+    color: white;
+    background: black;
+    transition: 1s;
+}
+.footer_part .part4 form input:focus{
+    background: white;
+}
+/* footer_end_part start */
+.footer_end_part hr{
+    background: white;
+    margin-top: 40px;
+}
+.footer_end_part p{
+    color: white;
+}
+/* footer_end_part end */
+/* footer part end */
+
+
+/* end botton start */
+.end_button{
+    position: fixed;
+    right: 35px;
+    bottom: 30px;
+}
+.end_button a i{
+    font-size: 50px;
+}
+/* end botton end */
+
+
+
+
+/*......................... login part start .............................*/
+.login_part{
+    height: 100vh;
+    width: auto;
+/*    background: linear-gradient(to top right,#0ECA98,#A864ED);*/
+    background: radial-gradient(ellipse,red,green);
+
+}
+.login_part .baceground_image_login{
+    background-image: url(../images/food-bg.png);
+/*
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+*/
+}
+.login_part .baceground_image_login .layout{
+    position: relative;
+    top: 70px;
+    margin: 0 200px;
+    background: white;
+    height: 500px;
+    width: auto;
+    border-radius: 25px;
+}
+.login_part .baceground_image_login .layout .left_part h4{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.login_part .baceground_image_login .layout .left_part h3{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    color: #0DC877;
+    font-size: 30px;
+}
+.login_part .baceground_image_login .layout .left_part .icon_part{
+    transform: rotate(-37deg);
+    position: absolute;
+    top: 135px;
+    left: 220px;
+    font-size: 20px;
+    color: #0DC877;
+}
+.login_part .baceground_image_login .layout .left_part .icon_link{
+    position: absolute;
+    top: 175px;
+    left: 180px;
+}
+.login_part .baceground_image_login .layout .left_part .icon_link a{
+    color: black;
+    font-size: 18px;
+    border: 1px solid rgb(167, 172, 164);
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.login_part .baceground_image_login .layout .left_part .icon_link a:hover{
+    background: black;
+    color: white;
+}
+.login_part .baceground_image_login .layout .left_part p{
+    position: absolute;
+    top: 220px;
+    left: 160px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part{
+    position: absolute;
+    top: 260px;
+    left: 80px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part input{
+    padding: 8px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part input[type="email"]{
+    width: 200px;
+    margin-left: 28px;
+    border: 2px solid steelblue;
+    background: #FDE67C;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part input[type="password"]{
+    width: 200px;
+    border: 2px solid steelblue;
+    background: #FDE67C;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part a{
+    margin-left: 180px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part button{
+    width: 100px;
+    height: 37px;
+    border: none;
+    background: steelblue;
+    color: white;
+    border-radius: 8px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.login_part .baceground_image_login .layout .left_part .form_part button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+.login_part .baceground_image_login .layout .left_part .form_part input:focus{
+    background: white;
+}
+.login_part .baceground_image_login .layout .right_part{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #0ECA97;
+/*    background: #10BDBB;*/
+    height: 500px;
+    width: 450px;
+    border-radius: 0 25px 25px 0;
+}
+.login_part .baceground_image_login .layout .right_part h3{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+}
+.login_part .baceground_image_login .layout .right_part p{
+    margin: 0 70px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.login_part .baceground_image_login .layout .right_part a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 35px;
+    background: #ffb606;
+}
+.login_part .baceground_image_login .layout .right_part a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    transition: .5s;
+}
+.login_part .baceground_image_login .layout .right_part .icon_part{
+    transform: rotate(-37deg);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    color: white;
+    font-size: 20px;
+}
+/*......................... login part end ................................*/
+
+
+
+
+/*......................... sign up part start .............................*/
+.sign_part{
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(to top right,#0ECA98,#A864ED);
+}
+.sign_part .baceground_image_signin{
+    background-image: url(../images/food-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+}
+.sign_part .baceground_image_signin .layout{
+    position: relative;
+    top: 70px;
+    margin: 0 200px;
+    background: white;
+    height: 500px;
+    width: auto;
+    border-radius: 25px;
+}
+.sign_part .baceground_image_signin .layout .left_part img{
+    height: 500px;
+    width: 406px;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    background: black;
+    width: 320px;
+    height: 390px;
+    opacity: 0.8;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay h4{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay img{
+    width: 100px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 105px;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay h5{
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay a{
+    color: black;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 20px;
+    border-radius: 25px;
+    margin-left: 110px;
+    background: #ffb606;
+    display: block;
+    margin-top: 15px;
+    margin-right: 110px;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay a:hover{
+    background: #000;
+    color: white;
+    transition: .5s;
+}
+.sign_part .baceground_image_signin .layout .right_part{
+    position: absolute;
+    top: 0;
+    right: 0;
+/*    background: #0ECA97;*/
+/*    background: #10BDBB;*/
+    height: 500px;
+    width: 500px;
+    border-radius: 0 25px 25px 0;
+}
+.sign_part .baceground_image_signin .layout .right_part h3{
+    margin-left: 160px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.sign_part .baceground_image_signin .layout .right_part .form_part{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+}
+.sign_part .baceground_image_signin .layout .right_part input{
+    padding: 8px;
+}
+.sign_part .baceground_image_signin .layout .right_part input[type="text"]{
+    width: 200px;
+    border: 2px solid steelblue;
+    background: rgb(150, 212, 11);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-left: 71px;
+}
+.sign_part .baceground_image_signin .layout .right_part input[type="email"]{
+    width: 200px;
+    margin-left: 44px;
+    border: 2px solid steelblue;
+    background: rgb(150, 212, 11);
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.sign_part .baceground_image_signin .layout .right_part input[type="password"]{
+    width: 200px;
+    border: 2px solid steelblue;
+    background: rgb(150, 212, 11);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.sign_part .baceground_image_signin .layout .right_part .form_part button{
+    width: 100px;
+    height: 37px;
+    border: none;
+    background: steelblue;
+    color: white;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.sign_part .baceground_image_signin .layout .right_part button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+.sign_part .baceground_image_signin .layout .right_part input:focus{
+    background: white;
+}
+/*......................... sign up part end .............................*/
