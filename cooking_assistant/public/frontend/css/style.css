@@ -37,25 +37,23 @@ ul{
     padding: 6px;
 }
 .header_part .container .menu_part .menu ul li a:hover{
-    border: 1px solid green;
-    padding: 5px;
+    background: #a5a5a5;
+    color: black;
 }
 .header_part .container .button_part a{
    display: block;
    margin-top: 40px;
-   background: blue;
+   background:#F29456;
    color: white;
    padding-top: 10px;
    padding-bottom: 10px;
    padding-left: 30px;
-
+   border-radius: 8px;
    margin-right: 65px;
-
 }
 .header_part .container .button_part a:hover{
-    background: green;
-    color: white;
-    transition: .5s;
+    background: #a5a5a5;
+    color: black;
 }
 /* Header area end */
 
@@ -66,8 +64,9 @@ ul{
     margin-bottom: 80px;
 }
 .welcome_parts .container .left_part img{
+    margin-top: 40px;
     width: 580px;
-    height: 580px;
+    height: 540px;
 }
 .welcome_parts .container .right_part{
     margin-top: 120px;
@@ -84,18 +83,19 @@ ul{
     margin-bottom: 40px;
 }
 .welcome_parts .container .right_part a{
-    background: #ffb606;
+    background: #F29456;
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 40px;
     padding-right: 40px;
     color: white;
     font-size: 18px;
+    transition: .5s;
+    border-radius: 10px;
 }
 .welcome_parts .container .right_part a:hover{
-    background: white;
+    background: #a5a5a5;
     color: black;
-    border: 1px solid black;
 }
 /* About area end */
 
@@ -135,21 +135,25 @@ ul{
     text-align: justify;
 }
 .blog_part .background_image .container .part1 a{
-    background: #ffb606;
+    background: #F29456;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
     padding-right: 35px;
     color: white;
     font-size: 18px;
+    transition: .5s;
+    border-radius: 10px;
 }
 .blog_part .background_image .container .part1 a:hover{
-    background: #fff;
+    background: #a5a5a5;
     color: black;
-    border: 1px solid black;
 }
 .blog_part .background_image .container .part1 img{
-   margin-left: -200px;
+   margin-left: -230px;
+   height: 460px;
+   width:540px;
+   border-radius: 10px;
 }
 .blog_part .background_image .container .part2{
     margin-top: 90px;
@@ -162,21 +166,28 @@ ul{
     margin-top: 10px;
     margin-bottom: 35px;
     text-align: justify;
+    margin-right: 50px;
 }
 .blog_part .background_image .container .part2 a{
-    background: #ffb606;
+    background: #F29456;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
     padding-right: 35px;
     color: white;
     font-size: 18px;
+    border-radius: 10px;
+    transition: .5s;
 }
 .blog_part .background_image .container .part2 a:hover{
-    background: #fff;
+    background: #a5a5a5;
     color: black;
-    border: 1px solid black;
 }
+.blog_part .background_image .container .part2 img{
+    height: 460px;
+    width:510px;
+    border-radius: 10px;
+ }
 /* Blog part end */
 
 
@@ -497,7 +508,7 @@ body:hover .part6{
 .end_button a i{
     font-size: 50px;
 }
-/* end botton end */
+/*......................... end botton end  .............................*/
 
 
 
@@ -506,17 +517,10 @@ body:hover .part6{
 .login_part{
     height: 100vh;
     width: auto;
-/*    background: linear-gradient(to top right,#0ECA98,#A864ED);*/
     background: radial-gradient(ellipse,red,green);
-
 }
 .login_part .baceground_image_login{
     background-image: url(../images/food-bg.png);
-/*
-    background-repeat: no-repeat;
-    background-position: top right;
-    height: 100vh;
-*/
 }
 .login_part .baceground_image_login .layout{
     position: relative;
@@ -527,15 +531,16 @@ body:hover .part6{
     width: auto;
     border-radius: 25px;
 }
-.login_part .baceground_image_login .layout .left_part h4{
+.login_part .baceground_image_login .layout .left_part a h4{
     position: absolute;
     top: 20px;
     left: 20px;
+    color:black;
 }
 .login_part .baceground_image_login .layout .left_part h3{
     position: absolute;
     top: 100px;
-    left: 120px;
+    left: 150px;
     color: #0DC877;
     font-size: 30px;
 }
@@ -543,73 +548,52 @@ body:hover .part6{
     transform: rotate(-37deg);
     position: absolute;
     top: 135px;
-    left: 220px;
+    left: 265px;
     font-size: 20px;
     color: #0DC877;
 }
-.login_part .baceground_image_login .layout .left_part .icon_link{
-    position: absolute;
-    top: 175px;
-    left: 180px;
-}
-.login_part .baceground_image_login .layout .left_part .icon_link a{
-    color: black;
-    font-size: 18px;
-    border: 1px solid rgb(167, 172, 164);
-    padding: 8px;
-    border-radius: 50%;
-    margin-left: 5px;
-}
-.login_part .baceground_image_login .layout .left_part .icon_link a:hover{
-    background: black;
-    color: white;
-}
-.login_part .baceground_image_login .layout .left_part p{
-    position: absolute;
-    top: 220px;
-    left: 160px;
-}
 .login_part .baceground_image_login .layout .left_part .form_part{
     position: absolute;
-    top: 260px;
-    left: 80px;
+    top: 190px;
+    left: 55px;
 }
 .login_part .baceground_image_login .layout .left_part .form_part input{
-    padding: 8px;
+    padding: 5px;
 }
 .login_part .baceground_image_login .layout .left_part .form_part input[type="email"]{
-    width: 200px;
-    margin-left: 28px;
+    width: 240px;
+    margin-left: 39px;
     border: 2px solid steelblue;
     background: #FDE67C;
-    margin-bottom: 15px;
     border-radius: 8px;
 }
 .login_part .baceground_image_login .layout .left_part .form_part input[type="password"]{
-    width: 200px;
+    width: 240px;
     border: 2px solid steelblue;
     background: #FDE67C;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-radius: 8px;
+    margin-left: 5px;
+    margin-top:5px;
 }
 .login_part .baceground_image_login .layout .left_part .form_part a{
-    margin-left: 180px;
+    margin-left: 210px;
+    display: block;
 }
 .login_part .baceground_image_login .layout .left_part .form_part button{
-    width: 100px;
-    height: 37px;
+    width: 120px;
+    height: 45px;
     border: none;
-    background: steelblue;
-    color: white;
-    border-radius: 8px;
-    margin-left: 120px;
-    margin-top: 20px;
+    background: #F29456;
+    color: black;
+    border-radius: 15px;;
+    margin-left: 160px;
+    margin-top: 15px;
+    transition: .5s;
 }
 .login_part .baceground_image_login .layout .left_part .form_part button:hover{
-    background: white;
-    color: black;
-    border: 1px solid black;
-    transition: .5s;
+    background: #36312B;
+    color: white;
 }
 .login_part .baceground_image_login .layout .left_part .form_part input:focus{
     background: white;
@@ -619,7 +603,6 @@ body:hover .part6{
     top: 0;
     right: 0;
     background: #0ECA97;
-/*    background: #10BDBB;*/
     height: 500px;
     width: 450px;
     border-radius: 0 25px 25px 0;
@@ -629,6 +612,14 @@ body:hover .part6{
     margin-left: 100px;
     font-size: 40px;
     color: white;
+}
+.login_part .baceground_image_login .layout .right_part .icon_part{
+    transform: rotate(-37deg);
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    color: white;
+    font-size: 20px;
 }
 .login_part .baceground_image_login .layout .right_part p{
     margin: 0 70px;
@@ -643,24 +634,20 @@ body:hover .part6{
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 40px;
-    border: 1px solid white;
     border-radius: 20px;
     padding: 10px 20px 10px 35px;
-    background: #ffb606;
-}
-.login_part .baceground_image_login .layout .right_part a:hover{
-    text-decoration: none;
-    background: #fff;
-    color: black;
+    background: #F29456;
     transition: .5s;
 }
-.login_part .baceground_image_login .layout .right_part .icon_part{
-    transform: rotate(-37deg);
-    position: absolute;
-    top: 150px;
-    left: 200px;
+.login_part .baceground_image_login .layout .right_part a:hover{
+    background: #36312B;
     color: white;
-    font-size: 20px;
+}
+body:hover a{
+    transition: .5s;
+}
+body:hover button{
+    transition: .5s;
 }
 /*......................... login part end ................................*/
 
@@ -691,6 +678,8 @@ body:hover .part6{
 .sign_part .baceground_image_signin .layout .left_part img{
     height: 500px;
     width: 406px;
+    padding: 10px;
+    border-radius: 25px;
 }
 .sign_part .baceground_image_signin .layout .left_part .overlay{
     position: absolute;
@@ -700,106 +689,112 @@ body:hover .part6{
     width: 320px;
     height: 390px;
     opacity: 0.8;
+    border-radius: 25px;
 }
-.sign_part .baceground_image_signin .layout .left_part .overlay h4{
+.sign_part .baceground_image_signin .layout .left_part .overlay .header_name_part a h4{
     color: white;
     font-size: 30px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 38px;
 }
-.sign_part .baceground_image_signin .layout .left_part .overlay img{
-    width: 100px;
-    height: 110px;
-    margin-top: 30px;
-    margin-left: 105px;
+.sign_part .baceground_image_signin .layout .left_part .overlay .logo_show_part a img{
+    width: 120px;
+    height: 140px;
+    margin-top: 5px;
+    margin-left: 97px;
 }
 .sign_part .baceground_image_signin .layout .left_part .overlay h5{
     color: white;
     font-size: 16px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 60px;
 }
-.sign_part .baceground_image_signin .layout .left_part .overlay a{
+.sign_part .baceground_image_signin .layout .left_part .overlay .botton_part a{
     color: black;
     font-size: 18px;
-    border: 1px solid white;
-    padding: 5px 10px 5px 20px;
-    border-radius: 25px;
-    margin-left: 110px;
-    background: #ffb606;
-    display: block;
-    margin-top: 15px;
-    margin-right: 110px;
-}
-.sign_part .baceground_image_signin .layout .left_part .overlay a:hover{
-    background: #000;
-    color: white;
+    padding: 8px 15px 8px 28px;
+    border-radius: 20px;
+    margin-left: 106px;
+    background: #F29456;
     transition: .5s;
+    display: block;
+    margin-top: 20px;
+    margin-right: 112px;
+}
+.sign_part .baceground_image_signin .layout .left_part .overlay .botton_part a:hover{
+    background: #36312B;
+    color: white;
 }
 .sign_part .baceground_image_signin .layout .right_part{
     position: absolute;
     top: 0;
     right: 0;
-/*    background: #0ECA97;*/
-/*    background: #10BDBB;*/
     height: 500px;
     width: 500px;
-    border-radius: 0 25px 25px 0;
 }
 .sign_part .baceground_image_signin .layout .right_part h3{
-    margin-left: 160px;
+    margin-left: 240px;
     font-size: 30px;
     margin-top: 60px;
 }
 .sign_part .baceground_image_signin .layout .right_part .form_part{
     position: absolute;
-    top: 140px;
-    left: 20px;
+    top: 130px;
 }
 .sign_part .baceground_image_signin .layout .right_part input{
-    padding: 8px;
+    padding: 5px;
 }
 .sign_part .baceground_image_signin .layout .right_part input[type="text"]{
-    width: 200px;
+    width: 240px;
     border: 2px solid steelblue;
-    background: rgb(150, 212, 11);
-    margin-bottom: 15px;
+    background: #FDE67C;
+    margin-bottom: 20px;
     border-radius: 8px;
-    margin-left: 71px;
+    margin-left: 79px;
 }
 .sign_part .baceground_image_signin .layout .right_part input[type="email"]{
-    width: 200px;
-    margin-left: 44px;
+    width: 240px;
+    margin-left: 46px;
     border: 2px solid steelblue;
-    background: rgb(150, 212, 11);
-    margin-bottom: 15px;
+    background: #FDE67C;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
 .sign_part .baceground_image_signin .layout .right_part input[type="password"]{
-    width: 200px;
+    width: 240px;
     border: 2px solid steelblue;
-    background: rgb(150, 212, 11);
-    margin-bottom: 15px;
+    background: #FDE67C;
+    margin-bottom: 20px;
     border-radius: 8px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .sign_part .baceground_image_signin .layout .right_part .form_part button{
-    width: 100px;
-    height: 37px;
+    width: 120px;
+    height: 40px;
     border: none;
-    background: steelblue;
-    color: white;
-    border-radius: 10px;
-    margin-left: 150px;
-    margin-top: 20px;
+    background: #F29456;
+    transition: .5s;
+    color: black;
+    border-radius: 20px;
+    margin-left: 243px;
+    margin-top: 5px;;
 }
 .sign_part .baceground_image_signin .layout .right_part button:hover{
-    background: white;
-    color: black;
-    border: 1px solid black;
-    transition: .5s;
+    background: #36312B;
+    color: white;
 }
 .sign_part .baceground_image_signin .layout .right_part input:focus{
     background: white;
 }
 /*......................... sign up part end .............................*/
+
+
+
+/*......................... extra about part start.............................*/
+.extra_about_part{}
+.extra_about_part .container{}
+.extra_about_part .container h3{
+    color: red;
+    padding-top: 30px;;
+}
+/*......................... extra about part end.............................*/

@@ -24,25 +24,28 @@
    <div class="baceground_image_login">
     <div class="layout">
         <div class="left_part">
-            <h4>Cooking Assistant</h4>
+            <a href="{{url('/')}}"><h4>Cooking Assistant</h4></a>
             <h3>Sign in to Account</h3>
              <div class="icon_part">
                <i class="fas fa-slash"></i></div>
-             <div class="icon_link">
-             <a href="#"><i class="fab fa-facebook-f"></i></a>
-             <a href="#"><i class="fab fa-instagram"></i></a>
-             <a href="#"><i class="fab fa-google-plus-square"></i></a>
-             </div>
-             <p>or use your emaill account</p>
              <div class="form_part">
-                 <div class="form">
-                    <label for="email">Email : </label>
-                     <input id="email" type="email" placeholder="Email"><br>
-                    <label for="password">Password : </label>
-                    <input id="password" type="password" placeholder="Password"><br>
-                    <a href="">Forgot Password?</a><br>
+                 <form method="post" action="{{ route('login') }}">
+                 @csrf
+                    <label for="email" style="font-size:18px;"><b>Email</b>&nbsp : </label>
+                    <input id="email" type="email" placeholder="Email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus><br>
+                    @if (session('error'))
+                        <strong style="color:red;margin-left:145px;">{{ session('error') }}</strong>
+                    @endif
+                    <br>
+                    <label for="password" style="font-size:18px;"><b>Password</b>&nbsp : </label>
+                    <input id="password" type="password" placeholder="Password" name="password" required autocomplete="current-password"><br>
+                    @if (Route::has('password.request'))
+                        <a href="{{ route('password.request') }}">
+                           Forgot Password?
+                        </a>
+                    @endif
                     <button type="submit">Login</button>
-                 </div>
+                 </form>
              </div>
             </div>
            <div class="right_part">
@@ -50,7 +53,7 @@
                <div class="icon_part">
                <i class="fas fa-slash"></i></div>
                <p>Fill up personal information and start journey with us.</p>
-               <a href="sign.html">Sign Up</a>
+               <a href="{{ route('register') }}">Sign Up</a>
            </div>
        </div>
     </div>

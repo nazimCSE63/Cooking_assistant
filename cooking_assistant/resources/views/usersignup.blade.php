@@ -26,26 +26,27 @@
       <div class="left_part">
           <img src="{{asset('frontend/images/slide5.jpg')}}" alt="signbackgroundimage">
           <div class="overlay">
-            <h4>Cooking Assistant</h4>
-            <img src="{{asset('frontend/images/logo.png')}}" alt="logoimage">
+            <div class="header_name_part"><a href="{{url('/')}}"><h4>Cooking Assistant</h4></a></div>
+            <div class="logo_show_part"><a href="{{url('/')}}"><img src="{{asset('frontend/images/logo.png')}}" alt="logoimage"></a></div>
              <h5>Already have an account?</h5>
-              <a href="login.html">Sign In</a>
+            <div class="botton_part"><a href="{{ route('login') }}">Login</a></div>
           </div>
       </div>
       <div class="right_part">
           <h3>Sign Up</h3>
           <div class="form_part">
-             <div class="form">
-                <label for="name">Full Name : </label>
-                <input id="name" type="text" placeholder="Name"><br>
-                <label for="email">Email Address : </label>
-                <input id="email" type="email" placeholder="Email"><br>
-                <label for="password">Password : </label>
-                <input id="password" type="password" placeholder="Password" style="margin-left: 77px;"><br>
-                <label for="cpassword">Conform Password : </label>
-                <input id="cpassword" type="password" placeholder="Conform Password"><br>
+             <form method="POST" action="{{ route('register') }}">
+              @csrf
+                <label for="name" style="font-size:18px;"><b>Full Name</b>&nbsp : </label>
+                <input id="name" type="text" placeholder="Name" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus><br>
+                <label for="email" style="font-size:18px;"><b>Email Address</b>&nbsp  : </label>
+                <input id="email" type="email" placeholder="Email" name="email" value="{{ old('email') }}" required autocomplete="email"><br>
+                <label for="password" style="font-size:18px;"><b>Password</b>&nbsp  : </label>
+                <input id="password" type="password" placeholder="Password" style="margin-left: 85px;" name="password" required autocomplete="new-password"><br>
+                <label for="cpassword" style="font-size:18px;"><b>Conform Password</b>&nbsp  : </label>
+                <input id="cpassword" type="password" placeholder="Conform Password" name="password_confirmation" required autocomplete="new-password"><br>
                 <button type="submit">Sign Up</button>
-             </div>
+             </form>
          </div>
       </div>
        </div>

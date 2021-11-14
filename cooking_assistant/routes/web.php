@@ -17,6 +17,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //     Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'dashboard']);
 // });
 
+Route::get('/about', function () {
+    return view('about');
+});
 
-
-
+Route::get('/blog', function () {
+    return view('blog');
+});
